@@ -68,7 +68,7 @@ int main()
         printf("\tQuit: q or Q\n");
         fgets(inBuf, 50, stdin);
         sscanf(inBuf, "%s", temp_input);
-        if (strlen(temp_input) > 1) { /*check for valid input*/
+        if (strlen(temp_input) > 1) { /*check for valid input.*/
             user_input = 'N';
         }
         else {

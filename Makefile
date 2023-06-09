@@ -1,6 +1,4 @@
-#Kaleb Hedrick G01311347
-#CS 262,Lab section 202
-# Lab 9
+#Kaleb Hedrick
 CC = gcc
 CFLAGS = -g -Wall -std=c89 -pedantic-errors
 TARGET = p3_khedric8_202
