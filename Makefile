@@ -3,7 +3,7 @@
 # Lab 9
 CC = gcc
 CFLAGS = -g -Wall -std=c89 -pedantic-errors
-TARGET = lab9_khedric8_202
+TARGET = p3_khedric8_202
 LIBS = -lm
 all: $(TARGET).c
 	$(CC) $(TARGET).c -o $(TARGET) $(CFLAGS) $(LIBS)
